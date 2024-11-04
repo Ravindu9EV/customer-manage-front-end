@@ -1,0 +1,10 @@
+<h1 class="h1  bg-gradient">Add Customer Form</h1>
+
+<input type="text" placeholder="name" [(ngModel)]="customer.name" />
+<input type="text" placeholder="email" [(ngModel)]="customer.email" />
+<input type="text" placeholder="address" [(ngModel)]="customer.address" />
+<input type="button" value="Add Customer" (click)="addCustomer()" />
+
+<h3>{{ customer.name }}</h3>
+<h3>{{ customer.email }}</h3>
+<h3>{{ customer.address }}</h3>
